@@ -1,12 +1,12 @@
-package ru.geekbrains.java.oop.core;
+package ru.geekbrains.java.oop.core.lesson1;
 
-public class Robot implements Jump, Running {
+public class Cat implements Jump, Running {
 
     private String name;
     private int jump;
     private int track;
 
-    Robot(String name, int jump, int track) {
+    Cat(String name, int jump, int track) {
         this.name = name;
         this.jump = jump;
         this.track = track;
@@ -38,15 +38,15 @@ public class Robot implements Jump, Running {
 
     public void animalJump(int myWall) {
         if( myWall < this.jump) {
-            System.out.println("Jump robot " + this.name);
+            System.out.println("Jump cat " + this.name);
         } else
-            System.out.println("No jump robot " + this.name);
+            System.out.println("No jump cat " + this.name);
     }
 
     public void animalRunning(int myTrack) {
         if( myTrack < this.track) {
-            System.out.println("Run robot " + this.name);
+            System.out.println("Run cat " + this.name);
         } else
-            System.out.println("No run robot " + this.name);
+            System.out.println("No run cat " + this.name);
     }
 }

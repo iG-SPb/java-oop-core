@@ -1,4 +1,4 @@
-package ru.geekbrains.java.oop.core;
+package ru.geekbrains.java.oop.core.lesson1;
 
 public class HomeWork1 {
     public static void main(String[] args) {
