@@ -6,7 +6,7 @@ public class Cat implements Jump, Running {
     private int jump;
     private int track;
 
-    Cat(String name, int jump, int track) {
+    public Cat(String name, int jump, int track) {
         this.name = name;
         this.jump = jump;
         this.track = track;

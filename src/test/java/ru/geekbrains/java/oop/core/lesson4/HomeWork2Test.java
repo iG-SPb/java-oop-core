@@ -3,9 +3,6 @@ package ru.geekbrains.java.oop.core.lesson4;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.geekbrains.java.oop.core.lesson4.AssignmentsFromPastLessons.MethodsForHomeWork2;
-import ru.geekbrains.java.oop.core.lesson4.AssignmentsFromPastLessons.MyArrayDataException;
-import ru.geekbrains.java.oop.core.lesson4.AssignmentsFromPastLessons.MyArraySizeException;
 
 public class HomeWork2Test {
     @DisplayName("Проверка метода runArray:")

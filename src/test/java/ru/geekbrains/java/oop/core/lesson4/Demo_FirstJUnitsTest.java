@@ -62,7 +62,7 @@ public class Demo_FirstJUnitsTest {
     private static Stream<Arguments> dataProvider() {
         return Stream.of(
                 Arguments.of(11,10),
-                Arguments.of(3,4),
+                Arguments.of(5,4),
                 Arguments.of(3,2)
         );
     }
@@ -84,13 +84,13 @@ public class Demo_FirstJUnitsTest {
         String testFirstName = "Ivanov";
         String testSecondName = "Ivan";
         Assertions.assertAll( "Данные для проверки:",           // проверка всех условий
-                () -> Assertions.assertEquals(testFirstName, "Ivaniv"),
+                () -> Assertions.assertEquals(testFirstName, "Ivanov"),
                 () -> Assertions.assertEquals(testSecondName, "Ivan")
         );
     }
 
     @AfterEach          // выполняется после каждого теста
-    public void afterEach() {
+    public void afterEachT() {
         System.out.println("FirstJUnitsTest.afterEach");
     }
 
