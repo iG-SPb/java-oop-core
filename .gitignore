@@ -6,4 +6,4 @@ out/
 /workspace.xml
 
 # Project exclude paths
-#/target/
+/target/
